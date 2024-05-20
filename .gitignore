@@ -1,3 +1,12 @@
+# f/lex
+*.yy.*
+
+# yacc/bison
+*.tab.*
+
+# TAC
+*.tac
+
 # Prerequisites
 *.d
 
@@ -35,6 +44,7 @@
 *.i*86
 *.x86_64
 *.hex
+pjp
 
 # Debug files
 *.dSYM/

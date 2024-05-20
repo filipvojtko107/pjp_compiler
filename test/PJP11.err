@@ -1,0 +1,26 @@
+program PJP11(IN,OUT);
+var
+	i, j, k, vys, : integer;
+
+begin
+    i := 1;
+    j := 2
+    k := 4;
+    vys := 0;
+
+	if (i = 1 then
+        if (j = 2) then
+            if (k = 4) then
+                vys := k + j + i
+            else
+                vys := k - j + i
+        else
+            vys := k - j - i
+    else
+        vys := -1;
+
+    if (vys != -1) then
+        vys := vys * 2;
+
+    vys := vys * vys    (*vys^2*)
+end.

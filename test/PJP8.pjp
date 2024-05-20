@@ -1,0 +1,23 @@
+program PJP8(IN, OUT);
+var
+    i, j, k, cnt : integer;
+begin
+    i := 0;
+    j := 0;
+    k := 0;
+    cnt := 0;
+
+    while i < 10 do
+    begin
+        while j < 5 do
+        begin
+            begin
+            while k < 3 do
+                cnt := cnt + 1;
+                k := k + 1
+            end;
+            j := j + 1
+        end;
+        i := i + 1
+    end
+end.
